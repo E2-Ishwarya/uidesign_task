@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="css/newlogin.css">
-        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
         <title>
-            login page
+            login page validation
         </title>
+        <link rel="stylesheet" href="css/validation.css"> 
     </head>
     <body>
-        <form>
-        <div class="container">
-                    <h1>LOGIN </h1>
-                        <input type="text" placeholder="username" value="ishwarya">
-                        <input type="password" placeholder="password" value="6378212">
-              <a href="www.google.com">Forgot password?</a>
-           <button id="button"><a href="barside1.html" target="_blank">login</a></button>
-        </form>    
-    </div>
+        <form id="form" >
+          <div class="container">
+                    <h1> LOGIN </h1>
+                       <div class="username">
+                        <input type="text" onkeypress="check()" placeholder="username" id="username">
+                        <p id="x"></p>
+                    </div>
+                    <div class="password">
+                        <input type="password" onkeypress="check1()" placeholder="password" id="password">
+                        <p id="y"></p>
+                    </div>
+                    <a href="www.google.com">Forgot password?</a>
+                    <button type="button" id="button" onclick= "check(),check1()">login</button>
+            </div>
+        </form>
     </body>
+    <script src="validation.js"></script>
 </html>
+              
+        
