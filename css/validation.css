@@ -42,7 +42,7 @@ p{
 {
     height:10%;
     width:100%;
-    margin-top: 8px;
+    margin-top:2px;
 }
 .password
 {
@@ -95,11 +95,11 @@ h1{
     font-size: 25px;
 }
 
-@media only screen and (min-device-width : 200px) and (max-device-width : 1200px)   {
+@media only screen and (min-device-width : 200px) and (max-device-width : 1000px)   {
     .container 
     {
-        width:69%; 
-        height:51%;
+        width:71%; 
+        height:28%;
     }
     ::placeholder {
     
@@ -131,4 +131,13 @@ h1{
         height: 315px;;
     }
 }
+@media only screen and (min-device-width : 1000px) and (max-device-width : 1200px)   {
+    .container 
+    {
+        width:50%; 
+        height:50%;
+    }
+}
+
+
 
