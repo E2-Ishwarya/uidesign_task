@@ -11,11 +11,11 @@
           <div class="container">
                     <h1> LOGIN </h1>
                        <div class="username">
-                        <input type="text" onkeypress="check()" placeholder="username" id="username">
+                        <input type="text" onkeyup="check()" onblur="check()" placeholder="username" id="username">
                         <p id="x"></p>
                     </div>
                     <div class="password">
-                        <input type="password" onkeypress="check1()" placeholder="password" id="password">
+                        <input type="password" onkeyup="check1()" onblur="check1()" placeholder="password" id="password">
                         <p id="y"></p>
                     </div>
                     <a href="www.google.com">Forgot password?</a>
@@ -25,5 +25,5 @@
     </body>
     <script src="validation.js"></script>
 </html>
-              
+            
         
