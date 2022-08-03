@@ -42,7 +42,7 @@ p{
 {
     height:10%;
     width:100%;
-    margin-top: 7px;
+    margin-top: 8px;
 }
 .password
 {
@@ -99,7 +99,7 @@ h1{
     .container 
     {
         width:69%; 
-        height:27%;
+        height:51%;
     }
     ::placeholder {
     
